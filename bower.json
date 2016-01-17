@@ -1,0 +1,23 @@
+{
+  "name": "epack-single-select",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ePack/single-select",
+  "authors": [
+    "Maik Hummel <maik@eclip.io>"
+  ],
+  "description": "",
+  "main": "epack-single-select.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iron-selector": "polymerElements/iron-selector#~1.0.8",
+    "paper-radio-button": "polymerElements/paper-radio-button#~1.0.12"
+  }
+}

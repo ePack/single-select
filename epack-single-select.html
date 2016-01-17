@@ -1,0 +1,25 @@
+<link rel="import" href="../../iron-selector/iron-selector.html">
+<link rel="import" href="../../paper-radio-button/paper-radio-button.html">
+
+<dom-module id="epack-single-select">
+<template>
+  <div id="choices">
+    <iron-selector selected="{{value}}" selectable="paper-radio-button" selected-attribute="checked">
+    <template is="dom-repeat" items="{{options}}">
+      <paper-radio-button>{{item}}</paper-radio-button>
+      <br><br>
+    </template>
+  </iron-selector>
+</div>
+</template>
+<script>
+  Polymer({
+    is: 'epack-single-select',
+
+    properties: {
+      options: Array,
+      value: Number
+    }
+  });
+</script>
+</dom-module>
